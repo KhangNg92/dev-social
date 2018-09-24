@@ -53,9 +53,9 @@ class Navbar extends Component {
     )
     return (
       
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
     <div className="container">
-      <a className="navbar-brand" to="">DevConnector</a>
+      <a className="nav-link" href = "/" >Home</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
         <span className="navbar-toggler-icon"></span>
       </button>

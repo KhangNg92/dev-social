@@ -70,7 +70,7 @@ onSubmit(e) { /*  e is event, whenever we type this will change*/
               onChange = {this.onChange}
               error = {errors.password} />
                 
-                <input type="submit" className="btn btn-info  btn-dark btn-block mt-4" />
+                <button className="btn btn-info  btn-dark btn-block mt-4">Login</button>
               </form>
             </div>
           </div>
