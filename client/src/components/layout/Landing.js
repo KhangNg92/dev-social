@@ -16,9 +16,9 @@ import { connect } from 'react-redux';
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mx-auto">Social Dev Connector
+                <h1 className="display-6 mx-auto">Social Dev Connector
                 </h1>
-                <p className="sub-typed lead"> Create a developer profile/portfolio, share posts and get help from other developers</p>
+                <p className="lead1"> Welcome Developers, in this community we'll connect, share posts and create resumes/portfolio</p>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-dark ">Sign Up</Link>
                 <Link to="/login" className="btn btn-lg btn-light">Login</Link>
