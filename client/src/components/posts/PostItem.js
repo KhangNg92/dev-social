@@ -39,7 +39,9 @@ import {deletePost, addLike, removeLike} from '../../actions/postAction'
           </div>
           <div className="col-md-10">
             <p className="lead">{post.text}</p>
-        {showActions ? (<span>       <button onClick = {this.onLikeClick.bind(this, post._id)} type="button" className="btn btn-light mr-1">
+        {showActions ? (<span>       
+          <button onClick = {this.onLikeClick.bind(this, post._id)} type="button" 
+          className="btn btn-light mr-1">
               <i  className={classnames('fas fa-thumbs-up', {
                 'text-info' : this.findUserLike(post.likes)
               })}></i> 

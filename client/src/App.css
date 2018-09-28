@@ -4,7 +4,7 @@ img {
 
 .landing {
   position: relative;
-  background: url('./img/showcase.jpg') no-repeat;
+  background: url('./img/computer.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -38,15 +38,7 @@ img {
   color: rgb(247, 239, 239) !important;
 }
 
-.register{
-  position: relative;
-  background: url('./img/showcase.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  margin-top: -24px;
-  margin-bottom: -50px;
-}
+
 
 .navbar-brand {
   color:white;

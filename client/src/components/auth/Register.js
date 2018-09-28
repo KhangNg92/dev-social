@@ -54,13 +54,13 @@ this.props.registerUser(newUser, this.props.history);
 
         return (
         <div className="register">
-        <div className="dark-overlay landing-inner text-light"></div>
+        <div className="dark-overlay2 landing-inner text-light"></div>
          <div className ="container">
           <div className="row">
             <div className="col-md-8 m-auto">
             
-              <h1 className="display-4 text-center text-white">Sign Up</h1>
-              <p className="lead text-center text-white">Create your DevConnector account</p>
+              <h1 className="display-4 text-center text-dark">Sign Up</h1>
+              <p className="lead text-center text-dark">Create your DevConnector account</p>
               <form noValidate onSubmit ={this.onSubmit}>
               <TextFieldGroup
               placeholder="Name"
@@ -91,7 +91,7 @@ this.props.registerUser(newUser, this.props.history);
               value = {this.state.password2}
               onChange = {this.onChange}
               error = {errors.password2} />
-                <input type="submit" className="btn btn-light btn-block" />
+                <input type="submit" className="btn btn-dark btn-block" />
               </form>
             </div>
           </div>
