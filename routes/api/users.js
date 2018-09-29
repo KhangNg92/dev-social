@@ -123,5 +123,16 @@ router.get('/current', passport.authenticate('jwt', { session: false}), (req, re
     });
 });
 
+//route GET/api/users/current
+// @desc return current user 
+// @access Private
 
+router.post('/payment', passport.authenticate('jwt', { session: false}), (req, res) => {
+    res.json({
+        id: req.user.id,
+        name: req.user.name,
+        email: req.user.email,
+        payment: req.user.payment
+    });
+});
 module.exports = router;
