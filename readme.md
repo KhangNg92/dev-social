@@ -5,7 +5,7 @@
 
 - A full-stack web application using (MongoDB, Express.JS, React.JS,Node.Js) to help developers build their profile/portfolio, share posts and get help from other developers Responsive front-end design done with Bootstrap
 
-View the <a href = "https://audio-player-90s.herokuapp.com/">site</a>
+View the <a href = "https://dev-social-connect.herokuapp.com/">site</a>
 
 ## Technologies & Tools
 
