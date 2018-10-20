@@ -1,4 +1,4 @@
-# 90's music audio player
+# Dev Social Connector
 <img src="githubImg/dev-social.png"/>
 
 ## Description
